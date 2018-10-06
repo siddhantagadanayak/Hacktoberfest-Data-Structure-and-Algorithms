@@ -7,7 +7,8 @@ class BinarySearch
     		return -1;
     	}
 		
-        if (r >= l){
+        if (r >= l)
+	{
             int mid = l + (r - l) / 2;
             // If the search is present at the mid postion
             if (ar[mid] == x){
@@ -34,7 +35,8 @@ class BinarySearch
         if (result == -1){
             System.out.println("Element not present");
         }
-        else{
+        else
+	{
             System.out.println("Element found at index " + result);
         }
     }
